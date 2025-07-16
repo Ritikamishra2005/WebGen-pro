@@ -1,0 +1,31 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WebGen Pro - Website Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>WebGen Pro</h1>
+  <div class="editor-container">
+    <div class="editor">
+      <h3>HTML</h3>
+      <textarea id="htmlCode" placeholder="Type HTML here..."></textarea>
+    </div>
+    <div class="editor">
+      <h3>CSS</h3>
+      <textarea id="cssCode" placeholder="Type CSS here..."></textarea>
+    </div>
+    <div class="editor">
+      <h3>JS</h3>
+      <textarea id="jsCode" placeholder="Type JavaScript here..."></textarea>
+    </div>
+    <button onclick="run()"> Preview</button>
+    <button onclick="download()"> Download</button>
+  </div>
+  <iframe id="output"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
